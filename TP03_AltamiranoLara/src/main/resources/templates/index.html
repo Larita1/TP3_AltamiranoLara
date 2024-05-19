@@ -3,31 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <title>Lara Altamirano Maia Daiana</title>
+<link rel="stylesheet" href="/css/estilos.css"> 
 </head>
-<body>
-<header>
-<h1>
-PROGRAMACIÓN EN JAVA
-</h1>
-<nav>
-    <ul>
-      <li><a href="#">Introducción</a></li>
-      <li><a href="#">Tipos de estructura de control</a></li>
-      <li><a href="#">Metodos</a></li>
-      <li><a href="#">Colecciones de java</a></li>
+<body class="body">
+<header id="header">
+<h1>PROGRAMACIÓN EN JAVA</h1>
+<nav class="nav">
+    <ul class="ul">
+      <li><a class="a" href="#1">Introducción</a></li>
+      <li><a class="a" href="#2">Tipos de estructura de control</a></li>
+      <li><a class="a" href="#3">Metodos</a></li>
+      <li><a class="a" href="#4">Coleccion en java </a></li>
+      <li><a class="a" href="/formulario">Formulario</a></li>
     </ul>
 </nav>
 </header>
-<main>
-	<section>
-		<h2>Introducción</h2>
+<div class="container">
+<main class="main">
+	<section class="section" id="1">
+		<h2 class="titulo">Introducción</h2>
 		
-		<h3>¿Qué es la programación en java?</h3>
+		<h3 class="titulo">¿Qué es la programación en java?</h3>
 		
-		<p>La programación en Java es el proceso de crear software utilizando 
-		el lenguaje de programación Java, conocido por su portabilidad y versatilidad.</p>
+		<p class="p">La programación en Java es el proceso de crear software usando un
+                             lenguaje orientado a objetos que es portátil, seguro y versátil, 
+                             permitiendo que el mismo código se ejecute en cualquier plataforma
+                             que tenga una Máquina Virtual de Java </p>
 		
-		<table>
+		<table class="table">
         <tr>
             <th>Aspecto</th>
             <th>Descripcion</th>
@@ -46,40 +49,50 @@ PROGRAMACIÓN EN JAVA
         </tr>
     </table>
 	</section>
-		<h3>Tipos de estructura de control</h3>
-		<h2>Estructuras</h2>
+	<section class="section" id="2">
+		<h2 class="titulo">Tipos de estructura de control</h2>
+		<h3 class="titulo">Estructura de control</h3>
 		<ul>
-			<li>if: La estructura if permite ejecutar un bloque de código si se cumple una condición especificada. Puede estar seguido opcionalmente por uno o más bloques else if y un bloque else.</li>
-	        <li>switch: La estructura switch permite seleccionar una de varias opciones basadas en el valor de una expresión.</li>
+		<li>if: La estructura if permite ejecutar un bloque de código si se cumple una condición especificada.
+            Puede estar seguido opcionalmente por uno o más bloques else if y un bloque else.</li>
+	       <li>switch: La estructura switch permite seleccionar una de varias opciones basadas en el valor de una expresión.</li>
 	        <li>while: La estructura while ejecuta un bloque de código mientras una condición especificada sea verdadera.</li>
 	        <li>for: La estructura for es una forma más compacta de escribir bucles cuando se conoce el número de iteraciones.</li>
 	        <li>do-while: Similar a while, pero garantiza que el bloque de código se ejecute al menos una vez antes de verificar la condición.</li>
 		</ul>
-	<section>
-	    <h2>Métodos</h2>
-		<h3>¿Qué son los métodos en java?</h3>
-		<p> Los métodos en Java son bloques de código que realizan tareas específicas y pueden ser invocados 
+	</section>
+	<section class="section" id="3">
+		<h2 class="titulo">Metodos</h2>
+		<h3 class="titulo">¿Qué son los métodos en java?</h3>
+		<p class="p"> Los métodos en Java son bloques de código que realizan tareas específicas y pueden ser invocados 
 		desde otras partes del programa. Se definen dentro de una clase y representan comportamientos o 
 		acciones que los objetos de esa clase pueden realizar. Los métodos permiten modularizar el código y 
 		reutilizar la lógica en diferentes partes del programa.</p>
 	</section>
-	<section>
-		<h2>Las colecciones de Java</h2>
-		<p> Las colecciones en Java son estructuras de datos que permiten almacenar y manipular conjuntos de elementos de manera dinámica. Estas colecciones
-		 proporcionan una serie de interfaces y clases que facilitan la manipulación de datos de manera eficiente. Algunas de las colecciones más comunes en 
-		 Java se encuentran en el paquete java.util.</p>
-		</section>
-	
+	<section class="section" id="4">
+		<h2 class="titulo">Coleccion de Java</h2>
+		<h3 class="titulo">¿Qué son las colecciones de java?</h3>
+		<p class="p"> Las colecciones en Java son estructuras de datos que permiten almacenar y manipular conjuntos de elementos de
+                              manera dinámica. Estas colecciones proporcionan una serie de interfaces y clases que facilitan la manipulación 
+                              de datos de manera eficiente. Algunas de las colecciones más comunes en Java se encuentran en el paquete java.util.</p>
+	</section>
+		
 </main>
-
-<aside>
-      <a href= "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="_blank">  Más información 
+<aside class="recursos">
+	<div class="recursos1">
+		<a class="a" href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="_blank">Más información<br>
+                <img class="img" src="/images/IMG.jpg" alt="Imagen de Java" width="100" height="100"> </a>
+	</div> 
 </aside>
-<footer>
-	 <h2>Contacto</h2>
-     <p>Correo Electrónico:laraltamirano28@gmail.com</p>
-     <p>Síguenos en redes sociales:</p>
-     <a href="https://github.com/Larita1">Github</a>
+</div>
+<footer id="footer">
+	 <h2 class="titulo">Contacto</h2>
+     <p class="p">Correo Electrónico: laraltamirano28@gmail.com</p>
+     <p class="p">Síguenos en redes sociales:</p>
+     <a class="a" href="https://github.com/Larita1" target="_blank">Github</a>
+     <a class="a" href="https://www.facebook.com/" target="_blank">Facebook</a>
+     <a class="a" href="https://www.instagram.com/" target="_blank">Instagram</a>
+	 <a class="a" href="https://www.twitter.com/" target="_blank">Twitter</a>
 </footer>
 </body>
 </html>
